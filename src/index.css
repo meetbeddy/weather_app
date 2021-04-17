@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 1%,
+    rgba(244, 91, 105, 1) 44%,
+    rgba(0, 212, 255, 1) 95%
+  );
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+.outer {
+  display: block;
+  padding: 20px;
+  height: 20px;
+  width: 100%;
+}
+.App {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  body {
+    display: block;
+    margin: 5px;
+  }
+}
